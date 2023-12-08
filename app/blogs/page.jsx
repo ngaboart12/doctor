@@ -116,7 +116,7 @@ const Blogs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
           {blogs.map((item, index) => {
             return (
-              <div className="flex flex-col gap-2">
+              <div key={index} className="flex flex-col gap-2">
                 <div className="h-[40vh]">
                   <Image
                     src={item.imageUrl}
