@@ -15,7 +15,7 @@ const Aboutus = () => {
             <span className='text-[16px] text-[#F2C300] text-center md:text-start '>About us</span>
             <h1 className='text-[#2B6490] font-[500] max-w-[400px] leading-6 text-[24px] text-center md:text-start'>Global experts headquartered in Kigali, Rwanda</h1>
             <p className='text-[16px] leading-6 max-w-[450px] text-center md:text-start'>Specializing in corporate training and human resource consulting services. We serve Rwandan businesses, public and private institutions,
-                 manufacturing companies, factories, and local/international NGOs, both locally and worldwide."
+                 manufacturing companies, factories, and local/international NGOs, both locally and worldwide.
             </p>
             <button className='py-3 px-4 hover:scale-110 transition-all bg-[#F2C300] w-[150px] rounded-md text-white'>Know more</button>
         </div>
