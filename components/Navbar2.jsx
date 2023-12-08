@@ -10,7 +10,7 @@ const Navbar2 = () => {
         <a href="/">Home</a>
         <a href="/aboutus">About us</a>
         <a
-          href="#"
+          href="#contactus"
           className="py-3 px-6 hover:scale-110 transition-all rounded-md bg-[#F2C300] text-white"
         >
           Reach to us

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contactus = () => {
   return (
-    <div className="w-full flex flex-col gap-3">
+    <div className="w-full flex flex-col gap-3" id="contactus">
       <h1 className="text-[24px] text-primary font-[300] text-center md:text-start">
         Write A message
       </h1>
