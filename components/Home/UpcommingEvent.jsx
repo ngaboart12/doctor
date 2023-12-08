@@ -36,7 +36,7 @@ const UpcommingEvent = () => {
         </h1>
         <span className="text-center max-w-[300px]">
           {" "}
-          Discover What's on the Horizon in Our Upcoming Events"
+          Discover Whats on the Horizon in Our Upcoming Events
         </span>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-center ">
