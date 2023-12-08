@@ -6,9 +6,9 @@ const Aboutus = () => {
     <div className='w-full max-w-7xl  flex justify-center px-[20px] md:px-20 py-20'>
       <div className='flex flex-col md:flex-row gap-10 w-full '>
         <div className='w-full md:w-1/2 flex flex-col md:flex-row items-center  justify-center '>
-            <Image src={`/image/about.png`} width={250} height={200} alt='l' className='' />
-            {/* <Image src={`/image/about.png`} width={200} height={200} alt='l' className='  absolute top-[20px] left-[10px] mx-0 -z-10' /> */}
-            {/* <Image src={`/image/about.png`} width={150} height={200} alt='l' className=' absolute top-0 right-[100px]' /> */}
+
+            <Image src={`/image/about.png`} width={550} height={200} alt='l' className='w-[90%] sm:w-[70%] md:w-[70%] ' />
+       
 
         </div>
         <div className='w-full md:w-1/2  justify-center  flex flex-col gap-5 items-center md:items-start'>

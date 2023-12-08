@@ -29,7 +29,7 @@ const WhatWeDo = () => {
         },
     ]
   return (
-    <div className='w-full px-[20px] md:px-[100px] lg:px-[180px] py-20 items-center flex bg-[#2B6490]'>
+    <div className='w-full px-[20px] md:px-[100px] lg:px-[180px] py-20 items-center flex justify-center bg-[#2B6490]'>
         <div className='max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-14'>
             <div className='flex flex-col gap-1 items-center sm:items-start'>
                 <h1 className='text-[32px] text-[#F2C300] font-[400]'>What we do</h1>
@@ -44,7 +44,7 @@ const WhatWeDo = () => {
                             <path d="M30.0305 30.5919L35.9039 36.45" stroke="#F2C300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
-                        <h1 className='text-[20px] font-[200] text-[#F2C300]'>{item.head}</h1>
+                        <h1 className='text-[20px] font-[200] text-[#F2C300] text-center sm:text-start'>{item.head}</h1>
                         <span className='text-[16px] text-white font-[200] text-center sm:text-start'>{item.content}</span>
                     </div>
                 )
