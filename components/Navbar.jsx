@@ -9,8 +9,9 @@ const Navbar = () => {
       <div className=" hidden md:flex flex-row gap-6 text-white text-[16px] font-[300] items-center">
         <a href="/">Home</a>
         <a href="/aboutus">About us</a>
+        <a href="/blogs">Events</a>
         <a
-          href="##contactus"
+          href="#contactus"
           className="py-3 px-6 hover:scale-110 transition-all rounded-md bg-[#F2C300] text-white"
         >
           Reach to us
