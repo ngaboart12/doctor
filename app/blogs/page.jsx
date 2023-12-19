@@ -2,6 +2,7 @@
 import Hero from "@/components/blogs/Hero";
 import React, { useState } from "react";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 const Blogs = () => {
   const [active, setActive] = useState(0);
@@ -88,7 +89,7 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="flex min-h-screen flex-col items-center gap-10 pb-20">
+    <div className="flex min-h-screen flex-col items-center gap-10 ">
       <Hero />
 
       <div className="flex w-full flex-col gap-10 px-[20px] md:px-[100px]">
@@ -160,6 +161,7 @@ const Blogs = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

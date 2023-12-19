@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Aboutus from "@/components/Home/AboutUs";
 import Hero from "@/components/aboutus/Hero";
 import OutTeam from "@/components/aboutus/OutTeam";
@@ -9,6 +10,7 @@ const AboutUs = () => {
       <Hero />
       <Aboutus />
       <OutTeam />
+      <Footer />
     </div>
   );
 };

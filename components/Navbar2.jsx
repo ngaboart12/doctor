@@ -8,6 +8,8 @@ const Navbar2 = () => {
       </div>
       <div className=" hidden md:flex flex-row gap-6 text-black text-[16px] font-[300] items-center">
         <a href="/">Home</a>
+        <a href="/service">Services</a>
+        <a href="/training">Our Training</a>
         <a href="/aboutus">About us</a>
         <a href="/blogs">Events</a>
         <a
