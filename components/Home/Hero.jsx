@@ -1,8 +1,14 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="w-full items-center relative flex flex-col justify-between    h-[100vh]">
       <div className="absolute -z-10 w-full h-full">
@@ -14,7 +20,10 @@ const Hero = () => {
         />
       </div>
       <Navbar />
-      <div className="flex flex-col gap-2 w-full items-center">
+      <div
+        data-aos="zoom-in"
+        className="flex flex-col gap-2 w-full items-center"
+      >
         <h1 className="text-white text-[20px] font-bold text-center">
           Transforming Visions into Results
         </h1>

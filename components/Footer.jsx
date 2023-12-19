@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="w-full bg-primary pb-4 px-20 flex flex-col items-center justify-center">
-      <div className="w-full max-w-7xl flex flex-col gap-6">
+      <div data-aos="zoom-in" className="w-full max-w-7xl flex flex-col gap-6">
         <div className="border-b border-white/20 p-4  grid grid-cols-2 md:grid-cols-3 w-full">
           <div className="flex flex-col gap-2 items-center">
             <div className="h-14 w-14 rounded-full bg-header flex items-center justify-center">

@@ -3,7 +3,13 @@ import Image from "next/image";
 
 const Joinustoday = () => {
   return (
-    <div className="w-full max-w-7xl flex items-center justify-center px-[20px] md:px-[100px] pb-10">
+    <div
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      className="w-full max-w-7xl flex items-center justify-center px-[20px]
+      md:px-[100px] pb-10"
+    >
       <div className="relative w-full   gap-3 items-center">
         <div className="w-full h-full absolute -z-10">
           <Image

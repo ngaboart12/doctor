@@ -2,7 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl w-full py-10 px-[20px] sm:px-10 md:px-20 flex flex-row justify-between">
+    <div
+      data-aos="zoom-in"
+      className="max-w-7xl w-full py-10 px-[20px] sm:px-10 md:px-20 flex flex-row justify-between"
+    >
       <div className="px-10 py-3  bg-[#2B6490] bg">
         <h1 className="text-white">Logo</h1>
       </div>

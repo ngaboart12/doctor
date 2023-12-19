@@ -77,7 +77,12 @@ const Connect = () => {
     },
   ];
   return (
-    <div className="w-full max-w-7xl flex flex-col gap-10 px-[20px] md:px-[100px] items-center">
+    <div
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      className="w-full max-w-7xl flex flex-col gap-10 px-[20px] md:px-[100px] items-center"
+    >
       <div className="flx flex-col gap-2 justify-center items-center">
         <div className="flex flex-row gap-2 items-center">
           <div className="h-1 w-[30px] bg-header"></div>

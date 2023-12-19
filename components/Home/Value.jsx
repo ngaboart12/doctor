@@ -23,7 +23,10 @@ const Value = () => {
     },
   ];
   return (
-    <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center px-[20px] md:px-[100px] lg:px-[100px] gap-6">
+    <div
+      data-aos="zoom-in-up"
+      className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center px-[20px] md:px-[100px] lg:px-[100px] gap-6"
+    >
       <div className="w-full md:w-1/2 flex flex-col gap-2">
         <div className="flex flex-row gap-2 items-center">
           <div className="w-[50px] h-1 bg-header"></div>

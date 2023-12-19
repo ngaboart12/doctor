@@ -3,7 +3,12 @@ import Image from "next/image";
 
 const Aboutus = () => {
   return (
-    <div className="w-full max-w-7xl  flex justify-center px-[20px] md:px-[100px] py-20">
+    <div
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      className="w-full max-w-7xl  flex justify-center px-[20px] md:px-[100px] py-20"
+    >
       <div className="flex flex-col md:flex-row gap-10 w-full ">
         <div className="w-full md:w-1/2 flex flex-col md:flex-row items-center  justify-center ">
           <Image
