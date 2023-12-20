@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/Footer";
 import Navbar2 from "@/components/Navbar2";
 import Corporate from "@/components/service/Corporate";
@@ -7,7 +8,9 @@ import { SiProgress } from "react-icons/si";
 import { FaFileSignature } from "react-icons/fa";
 import { SlOrganization } from "react-icons/sl";
 import { GiTeacher } from "react-icons/gi";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const whatwedo = [
   {
     icon: <FaHireAHelper />,
@@ -42,18 +45,24 @@ const whatwedo = [
 ];
 
 const page = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="flex min-h-screen flex-col items-center gap-4">
       <Navbar2 />
       <div className="w-full max-w-7xl items-center flex flex-col gap-20">
-        <div className="flex flex-col gap-2">
+        <div data-aos="zoom-in" className="flex flex-col gap-2">
           <div className="w-20 h-2 bg-[#2B6490] mr-auto"></div>
           <h1 className="max-w-[600px] text-center md:text-[48px] text-[#2B6490] text-[22px] leading-[30px] md:leading-[50px] font-bold">
             What Solutions We Provide To Our Valued Customers
           </h1>
           <div className="w-20 h-2  bg-[#F2C300] mx-auto"></div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-[4px] md:px-20 ">
+        <div
+          data-aos="fade-right"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-[4px] md:px-20 "
+        >
           <div className="flex flex-col gap-1 items-center sm:items-start">
             <h1 className="text-[32px] text-[#F2C300] font-[400]">
               What we do

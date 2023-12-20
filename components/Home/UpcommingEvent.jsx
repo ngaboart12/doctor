@@ -4,25 +4,25 @@ import Image from "next/image";
 const UpcommingEvent = () => {
   const events = [
     {
-      img: "",
+      img: "/image/event.png",
       date: "07 june 2023",
       title: "",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
-      img: "",
+      img: "/image/event2.jpg",
       date: "07 june 2023",
       title: "",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
-      img: "",
+      img: "/image/event3.jpg",
       date: "07 june 2023",
       title: "",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
-      img: "",
+      img: "/image/event4.jpg",
       date: "07 june 2023",
       title: "",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
@@ -46,12 +46,14 @@ const UpcommingEvent = () => {
               key={index}
               className="flex flex-col gap-2 items-center sm:items-start"
             >
-              <Image
-                src={`/image/event.png`}
-                width={300}
-                height={0}
-                className=""
-              />
+              <div className="h-[150px]">
+                <Image
+                  src={item.img}
+                  width={300}
+                  height={0}
+                  className="w-full h-full object-cover rounded-t-md"
+                />
+              </div>
               <span className="text-[14px] text-[#9D9D9D] px-4">
                 {item.date}
               </span>
