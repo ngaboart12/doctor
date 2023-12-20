@@ -44,7 +44,7 @@ const whatwedo = [
   },
 ];
 
-const page = () => {
+const Service = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -93,4 +93,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Service;
