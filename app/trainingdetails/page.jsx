@@ -138,7 +138,7 @@ const TrainingDetails = () => {
           </div>
           <div className="flex flex-col ">
             <h1 className="text-[16px] font-[600] text-gray-400">
-              What You'll Learn
+              What You will Learn
             </h1>
             <span className="text-[16px] lg:max-w-[800px] font-[300] leading-6">
               Event as a noun means A contest in a sports competition, such as a
