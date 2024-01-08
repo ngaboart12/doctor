@@ -32,9 +32,11 @@ const Aboutus = () => {
             institutions, manufacturing companies, factories, and
             local/international NGOs, both locally and worldwide.
           </p>
-          <button className="py-3 px-4 hover:scale-110 transition-all bg-[#F2C300] w-[150px] rounded-md text-white">
-            Know more
-          </button>
+          <a href="/aboutus">
+            <button className="py-3 px-4 hover:scale-110 transition-all bg-[#F2C300] w-[150px] rounded-md text-white">
+              Know more
+            </button>
+          </a>
         </div>
       </div>
     </div>

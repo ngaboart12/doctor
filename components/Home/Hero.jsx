@@ -34,12 +34,16 @@ const Hero = () => {
           WE ARE MCN CONSULTING NETWORK
         </span>
         <div className="flex flex-rwo gap-3">
-          <button className="px-8 py-[10px] hover:scale-110 transition-all rounded-[14px] bg-[#F2C300] text-white mt-3">
-            TALK TO US
-          </button>
-          <button className="px-8 py-[10px] hover:bg-[#F2C300] hover:text-white transition-all rounded-[14px] border-2 border-[#F2C300] text-[#F2C300] mt-3">
-            ABOUT US
-          </button>
+          <a href="#connect">
+            <button className="px-8 py-[10px] hover:scale-110 transition-all rounded-[14px] bg-[#F2C300] text-white mt-3">
+              TALK TO US
+            </button>
+          </a>
+          <a href="/aboutus">
+            <button className="px-8 py-[10px] hover:bg-[#F2C300] hover:text-white transition-all rounded-[14px] border-2 border-[#F2C300] text-[#F2C300] mt-3">
+              ABOUT US
+            </button>
+          </a>
         </div>
       </div>
       <div></div>

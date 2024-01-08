@@ -6,25 +6,25 @@ const UpcommingEvent = () => {
     {
       img: "/image/event.png",
       date: "07 june 2023",
-      title: "",
+      title: "Surgery",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
       img: "/image/event2.jpg",
       date: "07 june 2023",
-      title: "",
+      title: "Talking",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
       img: "/image/event3.jpg",
       date: "07 june 2023",
-      title: "",
+      title: "Meeting",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
     {
       img: "/image/event4.jpg",
       date: "07 june 2023",
-      title: "",
+      title: "Hello",
       disc: "Examine traditional Rwandan crafts such as basket weaving and pottery.",
     },
   ];
@@ -39,7 +39,7 @@ const UpcommingEvent = () => {
           Discover Whats on the Horizon in Our Upcoming Events
         </span>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-center ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8  ">
         {events.map((item, index) => {
           return (
             <div
@@ -57,7 +57,7 @@ const UpcommingEvent = () => {
               <span className="text-[14px] text-[#9D9D9D] px-4">
                 {item.date}
               </span>
-              <h1 className="text-[24px] h-4">{item.title}</h1>
+              <h1 className="text-[20px] px-2">{item.title}</h1>
               <span className="text-[#3E3E3E] text-[14px] text-center">
                 {item.disc}
               </span>
@@ -69,9 +69,11 @@ const UpcommingEvent = () => {
           );
         })}
       </div>
-      <button className="hover:scale-110 transition-all py-3 px-10 bg-header rounded-md text-white mt-10">
-        Discover more
-      </button>
+      <a href="/blogs">
+        <button className="hover:scale-110 transition-all py-3 px-10 bg-header rounded-md text-white mt-10">
+          Discover more
+        </button>
+      </a>
     </div>
   );
 };

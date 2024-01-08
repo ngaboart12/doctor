@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/Footer";
 import Navbar2 from "@/components/Navbar2";
 import React from "react";
@@ -7,8 +8,12 @@ import { GrTechnology } from "react-icons/gr";
 import { FaSignLanguage } from "react-icons/fa";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 import { GoDotFill } from "react-icons/go";
+import Image from "next/image";
+import jsonData from "../../data/allData.json";
 
 const Training = () => {
+  const openedTraining = jsonData.openedTraining;
+
   const trainning = [
     {
       icon: <TiSocialDribbbleCircular />,
@@ -67,18 +72,64 @@ const Training = () => {
     },
   ];
   return (
-    <div className="w-full bg-gray-200 flex min-h-screen flex-col items-center gap-4">
+    <div className="w-full bg-[#f3f3f3] flex min-h-screen flex-col items-center gap-4">
       <Navbar2 />
+      <div className="w-full max-w-7xl flex flex-col items-center gap-6 px-[4px] md:px-20 py-4">
+        <div className="flex flex-row items-center gap-10 w-full">
+          <div
+            className="cursor-pointer border py-2 px-4
+           text-[14px] hover:scale-105 transition-all text-primary font-[300]"
+          >
+            Upcomming Trainning
+          </div>
+          <div className="cursor-pointer border py-2 px-4 font-[300] text-[14px] hover:scale-105 transition-all">
+            Closed Trainning
+          </div>
+        </div>
+
+        <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-10  w-full  rounded-md">
+          {openedTraining.map((item, index) => {
+            return (
+              <a
+                href={`/trainingdetails?id=${item.id}`}
+                key={index}
+                className="flex  cursor-pointer bg-white hover:bg-gray-100/90  flex-col gap-4 w-full border-b  items-center"
+              >
+                <div className=" w-full h-[250px] rounded-md bg-gray-300">
+                  <Image
+                    src={item.image}
+                    width={500}
+                    height={500}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex flex-col px-4 ">
+                  <h1 className="text-[18px] hover:text-blue-900 font-medium text-primary">
+                    {item.name}
+                  </h1>
+                  <span className="font-[200] text-[14px]">
+                    Kigali Published on {item.published} | Deadline{" "}
+                    {item.deadline}
+                  </span>
+                  <span className="font-[300] text-primary text-[14px]">
+                    {item.type}
+                  </span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </div>
       <div className="w-full max-w-7xl flex flex-col items-center gap-6 px-[4px] md:px-20">
-        <h1 className="text-center text-primary text-[32px] font-bold max-w-[500px] leading-8">
+        <h1 className="text-center text-primary text-[24px] font-bold max-w-[500px] leading-8">
           CORPPORATE TRAINING PROVIDED
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
           {trainning.map((item, index) => {
             return (
               <div
                 key={index}
-                className="border  flex flex-col gap-4 bg-gray-100 rounded-md p-2 "
+                className=" flex flex-col gap-4 bg-gray-100 rounded-md p-2 border-0 "
               >
                 <div className="flex flex-col items-center gap-2">
                   <span className="text-[40px] text-blue-600">{item.icon}</span>
@@ -112,6 +163,7 @@ const Training = () => {
           })}
         </div>
       </div>
+
       <div className="mt-10 w-full">
         <Footer />
       </div>

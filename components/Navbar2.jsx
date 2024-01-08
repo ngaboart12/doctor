@@ -15,6 +15,7 @@ const Navbar2 = () => {
         <a href="/training">Our Training</a>
         <a href="/aboutus">About us</a>
         <a href="/blogs">Events</a>
+        <a href="/gallery">Gallery</a>
         <a
           href="#contactus"
           className="py-3 px-6 hover:scale-110 transition-all rounded-md bg-[#F2C300] text-white"

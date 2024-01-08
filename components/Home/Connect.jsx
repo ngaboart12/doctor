@@ -81,6 +81,7 @@ const Connect = () => {
       data-aos="fade-down"
       data-aos-easing="linear"
       data-aos-duration="1500"
+      id="connect"
       className="w-full max-w-7xl flex flex-col gap-10 px-[20px] md:px-[100px] items-center"
     >
       <div className="flx flex-col gap-2 justify-center items-center">

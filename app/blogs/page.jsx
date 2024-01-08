@@ -3,6 +3,7 @@ import Hero from "@/components/blogs/Hero";
 import React, { useState } from "react";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import jsonData from "../../data/allData.json";
 
 const Blogs = () => {
   const [active, setActive] = useState(0);
@@ -29,65 +30,8 @@ const Blogs = () => {
       name: "Graduation 2",
     },
   ];
+  const blogs = jsonData.blogs;
 
-  const blogs = [
-    {
-      imageUrl: "/image/blog1.png",
-      title: "Strategy and Planning",
-      name: "The Art of Strategic Planning",
-      disc: "If you haven’t joined this event happens annually and for this year it",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog2.png",
-      title: "Wedding",
-      name: "Navigating Change: A Guide for Businesses",
-      disc: "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog3.png",
-      title: "Holiday",
-      name: "Innovative Solutions: Driving Business Growth",
-      disc: "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog4.png",
-      title: "Special night",
-      name: "Mastering Project Management: Tips for Success",
-      disc: "Agahozo Shalom is inviting all alumni to the special event called Trivia night where we raise some of the funds ....",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog5.png",
-      title: "Honouring",
-      name: "Digital Transformation: Embracing the Future",
-      disc: "What beautiful messages can honour the great work done by our only father Tonto JC ....",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog6.png",
-      title: "Virage-Time",
-      name: "Leadership Excellence: Inspiring Teams to Succeed",
-      disc: "Don’t miss the upcoming village time that going to be hosted by the Bank of Kigal",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog7.png",
-      title: "Almni meet",
-      name: "Optimizing Operations for Efficiency",
-      disc: "If you haven’t joined this event happens annually and for this year it is going to be incridible",
-      date: "Dec 15, 2025",
-    },
-    {
-      imageUrl: "/image/blog8.png",
-      title: "Mama Rwanda",
-      name: "The Power of Data: Analytics for Smart Decision-Making",
-      disc: "Don’t miss the upcoming village time that going to be hosted by the Bank of Kigali",
-      date: "Dec 15, 2025",
-    },
-  ];
   return (
     <div className="flex min-h-screen flex-col items-center gap-10 ">
       <Hero />
@@ -117,7 +61,11 @@ const Blogs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
           {blogs.map((item, index) => {
             return (
-              <div key={index} className="flex flex-col gap-2">
+              <a
+                href={`/eventdetails?id=${item.id}`}
+                key={index}
+                className="flex flex-col gap-2"
+              >
                 <div className="h-[40vh]">
                   <Image
                     src={item.imageUrl}
@@ -156,7 +104,7 @@ const Blogs = () => {
                     {item.date}
                   </span>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>

@@ -1,0 +1,95 @@
+{
+    "openedTraining": [
+      {
+        "id": 1,
+        "image": "/image/train1.jpg",
+        "name": "Project Manager",
+        "published": "23-12-2023",
+        "deadline": "05-01-2023",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "id": 2,
+        "image": "/image/event2.jpg",
+        "name": "Language Train",
+        "published": "23-12-2023",
+        "deadline": "05-01-2023",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "id": 3,
+        "image": "/image/event3.jpg",
+        "name": "English – Advanced communication skills",
+        "published": "27-12-2023",
+        "deadline": "25-02-2023",
+        "type": "LINGUISTICS"
+      }
+    ],
+  "blogs" : [
+      {
+        "id":1,
+        "imageUrl": "/image/blog1.png",
+        "title": "Strategy and Planning",
+        "name": "The Art of Strategic Planning",
+        "disc": "If you haven’t joined this event happens annually and for this year it",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":2,
+        "imageUrl": "/image/blog2.png",
+        "title": "Wedding",
+        "name": "Navigating Change: A Guide for Businesses",
+        "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":3,
+        "imageUrl": "/image/blog3.png",
+        "title": "Holiday",
+        "name": "Innovative Solutions: Driving Business Growth",
+        "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":4,
+        "imageUrl": "/image/blog1.png",
+        "title": "Strategy and Planning",
+        "name": "The Art of Strategic Planning",
+        "disc": "If you haven’t joined this event happens annually and for this year it",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":5,
+        "imageUrl": "/image/blog2.png",
+        "title": "Wedding",
+        "name": "Navigating Change: A Guide for Businesses",
+        "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":6,
+        "imageUrl": "/image/blog3.png",
+        "title": "Holiday",
+        "name": "Innovative Solutions: Driving Business Growth",
+        "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":7,
+        "imageUrl": "/image/blog2.png",
+        "title": "Wedding",
+        "name": "Navigating Change: A Guide for Businesses",
+        "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
+        "date": "Dec 15, 2025"
+      },
+      {
+        "id":8,
+        "imageUrl": "/image/blog3.png",
+        "title": "Holiday",
+        "name": "Innovative Solutions: Driving Business Growth",
+        "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
+        "date": "Dec 15, 2025"
+      }
+    ]
+      
+  }
