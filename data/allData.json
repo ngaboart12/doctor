@@ -32,7 +32,8 @@
         "title": "Strategy and Planning",
         "name": "The Art of Strategic Planning",
         "disc": "If you haven’t joined this event happens annually and for this year it",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Strategy and Planning"
       },
       {
         "id":2,
@@ -40,7 +41,8 @@
         "title": "Wedding",
         "name": "Navigating Change: A Guide for Businesses",
         "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Change Management"
       },
       {
         "id":3,
@@ -48,7 +50,8 @@
         "title": "Holiday",
         "name": "Innovative Solutions: Driving Business Growth",
         "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Innovation"
       },
       {
         "id":4,
@@ -56,7 +59,8 @@
         "title": "Strategy and Planning",
         "name": "The Art of Strategic Planning",
         "disc": "If you haven’t joined this event happens annually and for this year it",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Project Management"
       },
       {
         "id":5,
@@ -64,7 +68,8 @@
         "title": "Wedding",
         "name": "Navigating Change: A Guide for Businesses",
         "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Change Management"
       },
       {
         "id":6,
@@ -72,23 +77,26 @@
         "title": "Holiday",
         "name": "Innovative Solutions: Driving Business Growth",
         "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Change Management"
       },
       {
         "id":7,
-        "imageUrl": "/image/blog2.png",
+        "imageUrl": "/image/blog4.png",
         "title": "Wedding",
         "name": "Navigating Change: A Guide for Businesses",
         "disc": "I invite you all to my wedding that is taking place at K.Kigali at 9:00am and as we are a family I will see ya",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Change Management"
       },
       {
         "id":8,
-        "imageUrl": "/image/blog3.png",
+        "imageUrl": "/image/blog5.png",
         "title": "Holiday",
         "name": "Innovative Solutions: Driving Business Growth",
         "disc": "This holiday pays tribute to a historical day in South African history when women of colour fought for ",
-        "date": "Dec 15, 2025"
+        "date": "Dec 15, 2025",
+        "category": "Change Management"
       }
     ]
       

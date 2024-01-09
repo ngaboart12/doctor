@@ -23,7 +23,7 @@ const EventDetails = () => {
   return (
     <div className="w-full bg-[#FAFAFA]flex min-h-screen flex-col  gap-4">
       <Navbar2 />
-      <div className="w-full px-[20px] md:px-20 flex flex-col lg:flex-row gap-5 pb-10 items-center">
+      <div className="w-full px-[20px] md:px-20 flex flex-col lg:flex-row gap-5 pb-10 ">
         <div className="max-w-[450px] lg:max-w-[550px] pr-0 md:pl-20 h-[400px]">
           <Image
             src={selectedEvent.imageUrl}
@@ -34,7 +34,9 @@ const EventDetails = () => {
           />
         </div>
         <div className="flex flex-col  p-2 w-full lg:w-1/2  lg:items-start leading-10 text-center lg:text-start items-center">
-          <h1 className="font-[800] text-[32px]">{selectedEvent.name}</h1>
+          <h1 className="font-[400] text-[28px] max-w-[400px] leading-8">
+            {selectedEvent.name}
+          </h1>
           <div className="flex flex-row gap-4">
             <div className=" px-4 bg-gray-100 rounded-full">
               <span className="text-gray-400 font-[300]">
